@@ -1,0 +1,57 @@
+*{
+   max-width: 1100px;
+   margin: auto;
+}
+ body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #cfdbe4;
+    display: flex;
+    justify-content: center;
+ }
+ .form-login{
+    display: flex;
+ }
+ .form-input{
+    display: flex;
+    flex-direction: column
+ }
+ .text-color{
+    color: #6DE1C2;
+}
+ .form-input input{
+    border: none;
+    border-bottom: 2px solid rgba(142, 142, 142, 1);
+ }
+ .form-input button{
+    border: none;
+    background-color: #0982FE;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    width: 549px;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .input-file{
+    border: 1px dashed #8e8e8e;
+    padding: 40px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8e8e;
+ }
+ .logo-icon{
+    display: flex;
+    justify-content: space-between;
+ }
+ .icon-information{
+    display: flex;
+ }
+ .icon-text{
+    display: flex;
+    flex-direction: column;
+ }
+ 
